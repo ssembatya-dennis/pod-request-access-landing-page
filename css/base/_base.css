@@ -20,3 +20,9 @@ header {
   padding: 10.2rem 0 1rem 16.5rem;
   position: relative;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 5rem 0 5rem 3.9rem;
+  }
+}

@@ -67,3 +67,15 @@ body {
   box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
   border-radius: 28px;
 }
+
+@media screen and (max-width: 1024px) {
+  .btn {
+    right: 130px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+}
