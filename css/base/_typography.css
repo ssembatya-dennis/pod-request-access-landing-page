@@ -1,0 +1,10 @@
+/*General Page Typography*/
+
+body {
+  font-family: "Chivo", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--color-text-light);
+  background: var(--bg-dark);
+}
