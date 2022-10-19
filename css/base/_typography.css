@@ -5,6 +5,65 @@ body {
   font-weight: 300;
   font-size: 1.6rem;
   line-height: 1.5;
+  background: var(--color-primary-dark);
+}
+
+/*Header typography*/
+
+.heading-primary {
+  font-weight: 400;
+  font-size: 5.2rem;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: var(--color-text-green);
+  margin-bottom: 2.4rem;
+}
+
+.heading-primary--sub {
+  display: inline-block;
+  color: var(--color-white);
+}
+
+.header__text {
+  width: 80%;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.8;
   color: var(--color-text-light);
-  background: var(--bg-dark);
+  margin-bottom: 4rem;
+}
+
+/*Componets*/
+
+/*Input Typography*/
+
+.input-email {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: var(--color-white);
+  background: var(--color-primary-light);
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+/*Button styles*/
+
+.btn {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: var(--color-primary-dark);
+  border: none;
+  outline: none;
+  padding: 1rem 1.6rem;
+  position: absolute;
+  top: 4px;
+  right: 140px;
+}
+
+.btn--submit {
+  background: var(--color-text-green);
+  box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
+  border-radius: 28px;
 }

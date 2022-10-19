@@ -21,30 +21,63 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <main>
-      <div class="header">
-        <div class="header__logo-box">
-          <img
-            src="assets/desktop/logo.svg"
-            alt="header logo"
-            class="header__logo"
-          />
-          <p class="header__logo-text">pod</p>
-        </div>
+    <header>
+      <div class="header__logo-box">
+        <img
+          src="assets/desktop/logo.svg"
+          alt="header logo"
+          class="header__logo"
+        />
+      </div>
 
-        <div class="header__text-box">
-          <h1 class="heading-primary">Publish your podcasts everywhere.</h1>
+      <div class="header__hero">
+        <div class="header__hero-text-box">
+          <h1 class="heading-primary">
+            <span class="heading-primary--main">Publish your podcasts </span>
+            <span class="heading-primary--sub">everywhere.</span>
+          </h1>
 
           <p class="header__text">
             Upload your audio to Pod with a single click. We’ll then distribute
             your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket
             Casts and more!
           </p>
+          <div class="header__input">
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="input-email"
+              placeholder="Email Address"
+            />
+            <button class="btn btn--submit">Request access</button>
+          </div>
 
-          <button class="btn btn--submit">Request access</button>
+          <div class="header__icon-box">
+            <img
+              src="assets/desktop/spotify.svg"
+              alt="spotify icon"
+              class="header__icon"
+            />
+            <img
+              src="assets/desktop/apple-podcast.svg"
+              alt="apple-podcast icon"
+              class="header__icon"
+            />
+            <img
+              src="assets/desktop/google-podcasts.svg"
+              alt="google-podcasts icon"
+              class="header__icon"
+            />
+            <img
+              src="assets/desktop/pocket-casts.svg"
+              alt="pocket-casts icon"
+              class="header__icon"
+            />
+          </div>
         </div>
 
-        <div class="header__hero">
+        <div class="header__hero-image">
           <picture>
             <source
               media="(min-width: 1200px)"
@@ -61,14 +94,15 @@
             />
           </picture>
         </div>
-        <div class="header__dot-pattern">
-          <img
-            src="assets/desktop/bg-pattern-dots.svg"
-            alt="dot image"
-            class="dot-design"
-          />
-        </div>
       </div>
-    </main>
+
+      <div class="header__dot-pattern">
+        <img
+          src="assets/desktop/bg-pattern-dots.svg"
+          alt="dot image"
+          class="dot-design"
+        />
+      </div>
+    </header>
   </body>
 </html>

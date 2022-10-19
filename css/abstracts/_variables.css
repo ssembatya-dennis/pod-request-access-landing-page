@@ -2,6 +2,9 @@
 
 :root {
   /*Colors*/
-  --color-text-light: #777;
-  --bg-dark: #121725;
+  --color-text-light: #c2cbe5;
+  --color-text-green: #54e6af;
+  --color-white: #fff;
+  --color-primary-dark: #121725;
+  --color-primary-light: #2c344b;
 }

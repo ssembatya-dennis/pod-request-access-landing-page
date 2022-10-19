@@ -1,0 +1,9 @@
+/*Email Input declarations*/
+
+.input-email {
+  width: 80%;
+  border: none;
+  outline: none;
+  border-radius: 2.8rem;
+  padding: 1.4rem 0 1.4rem 3.2rem;
+}
