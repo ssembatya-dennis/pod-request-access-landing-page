@@ -26,3 +26,9 @@ header {
     padding: 5rem 0 5rem 3.9rem;
   }
 }
+
+@media screen and (max-width: 425px) {
+  header {
+    padding: 5rem 3.9rem;
+  }
+}

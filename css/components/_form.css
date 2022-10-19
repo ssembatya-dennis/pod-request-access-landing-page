@@ -7,3 +7,9 @@
   border-radius: 2.8rem;
   padding: 1.4rem 0 1.4rem 3.2rem;
 }
+
+@media screen and (max-width: 425px) {
+  .input-email {
+    width: 100%;
+  }
+}
