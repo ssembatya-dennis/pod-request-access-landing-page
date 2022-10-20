@@ -46,6 +46,15 @@ body {
   opacity: 0.5;
 }
 
+#text {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fb3e3e;
+  padding: 5px;
+}
+
 /*Button styles*/
 
 .btn {

@@ -29,6 +29,7 @@ header {
 
 @media screen and (max-width: 425px) {
   header {
+    min-height: 100vh;
     padding: 5rem 3.9rem;
   }
 }
