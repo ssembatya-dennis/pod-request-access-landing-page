@@ -42,8 +42,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Pod request access landing page challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/podrequestaccesslandingpage-with-css-positioning-and-js-kR-SOGldnG)
+- Live Site URL: [Pod request access landing page challenge #Live site](https://pod-request-access-landing-page-black.vercel.app/)
 
 ## My process
 
